@@ -1,0 +1,53 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo   = 'Shougo/unite.vim'
+
+[[plugins]]
+repo   = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
+
+[[plugins]]
+repo = 'JuliaEditorSupport/julia-vim'
+
+[[plugins]]
+repo = 'AtsushiSakai/julia.vim'
+
+[[plugins]]
+repo = "neoclide/coc.nvim"
+merge = 0
+rev = "release"
+hook_add = """
+source ~/.config/nvim/plugins/coc.rc.vim
+"""
+
+[[plugins]]
+repo = "shougo/deol.nvim"
+hook_add = """
+source ~/.config/nvim/plugins/deol.rc.vim
+"""
+
+[[plugins]]
+repo = 'thinca/vim-template'
+hook_add = '''
+let g:template_basedir = '~/.config/nvim'
+let g:template_free_pattern = 'template'
+'''
